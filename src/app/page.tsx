@@ -1,4 +1,5 @@
 import Image from "next/image";
+import PadelBooking from './components/PadelBooking';
 
 export default function Home() {
   return (
@@ -97,5 +98,14 @@ export default function Home() {
         </a>
       </footer>
     </div>
+  );
+}
+
+
+export default function Home() {
+  return (
+    <main className="min-h-screen p-4">
+      <PadelBooking />
+    </main>
   );
 }
